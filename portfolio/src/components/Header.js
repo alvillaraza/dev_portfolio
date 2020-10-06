@@ -5,7 +5,7 @@ function Header() {
   return (
     <div>
       <h1>Alexis Villaraza</h1>
-      <h2>Full Stack Web Developer</h2>
+      <h3>Full Stack Web Developer</h3>
 
       <nav>
         <p>About Me</p>
@@ -18,3 +18,6 @@ function Header() {
 }
 
 export default Header;
+
+
+
