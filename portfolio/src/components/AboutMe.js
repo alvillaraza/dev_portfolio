@@ -24,6 +24,9 @@ function AboutMe() {
         for see owner, run in terror sun bathe. Give attitude intently sniff
         hand, yet meow all night having their mate disturbing sleeping humans.
         Lounge in doorway chase imaginary bugs.
+        
+        <p><a href="https://www.linkedin.com/in/alvillaraza/">https://www.linkedin.com/in/alvillaraza/</a></p>
+        <p><a href="https://github.com/alvillaraza">https://github.com/alvillaraza</a></p>
       </p>
     </div>
   );
