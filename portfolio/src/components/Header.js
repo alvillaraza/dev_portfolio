@@ -8,10 +8,10 @@ function Header() {
       
 
       <nav>
-        <Link to="/aboutme"><p>About Me</p></Link>
+        <Link to="/about-me"><p>About Me</p></Link>
         <p>Resume</p>
         <Link to="/portfolio"><p>Portfolio</p></Link>
-        <p>Contact Me</p>
+        <Link to="/contact-me"><p>Contact Me</p></Link>
       </nav>
     </div>
   );

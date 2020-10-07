@@ -15,10 +15,8 @@ box-shadow: 7px 10px 11px 0px rgba(0,0,0,0.75);
 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.my-photo {
+  max-width:20%;
 }
 
 .App-header {

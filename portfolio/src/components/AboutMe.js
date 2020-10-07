@@ -1,9 +1,13 @@
 import React from "react";
+import prof from './images/prof.jpeg';
+import "../App.css";
+
 
 function AboutMe() {
   return (
     <div>
       <h1>About Me</h1>
+      <img src={prof} alt="alexis-photo" className="my-photo" />
 
       <p>Impact statement (something interesting so people wanna read it) </p>
       <p>Story of how you got into coding?</p>
