@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 function Header() {
@@ -7,9 +8,9 @@ function Header() {
       
 
       <nav>
-        <p>About Me</p>
+        <Link to="/aboutme"><p>About Me</p></Link>
         <p>Resume</p>
-        <p>Portfolio</p>
+        <Link to="/portfolio"><p>Portfolio</p></Link>
         <p>Contact Me</p>
       </nav>
     </div>
