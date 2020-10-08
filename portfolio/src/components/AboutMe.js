@@ -19,7 +19,7 @@ function AboutMe() {
         People need to understand: who you are, what you do? and why what you do
         matter?
       </p> */}
-      <p>Front end: HTML | CSS | Javascript | React</p>
+      <p>Front end: HTML | CSS | Javascript | React | Redux</p>
       <p>Back end: Node | SQL | Python</p>
       <p>
         <a href="https://www.linkedin.com/in/alvillaraza/">LinkedIn</a> | <a href="https://github.com/alvillaraza">Github</a>
@@ -39,7 +39,7 @@ function AboutMe() {
         passion in eco-solutions, I hope to, one day, use my development skills to provide
         a positive impact to mother nature.
       </p>
-      <p>Interests: Outdoors | Aerial Arts | Travel</p>
+      <p>Interests: Outdoors | Aerial Arts | Travel | Cats</p>
 
     </div>
   );

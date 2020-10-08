@@ -11,8 +11,8 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <h1>Alexis Villaraza</h1>
-      <h3>Full Stack Web Developer</h3>
+      <h1 className="front-name">Alexis Villaraza</h1>
+      <h3 className="front-title">Full Stack Web Developer</h3>
       <Route exact path="/about-me"><AboutMe /></Route>
       
       <Route exact path="/portfolio"><Portfolio /></Route>

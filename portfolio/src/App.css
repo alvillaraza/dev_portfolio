@@ -10,14 +10,21 @@ nav {
 }
 
 img {
-  -webkit-box-shadow: 7px 10px 11px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 7px 10px 11px 0px rgba(0,0,0,0.75);
-box-shadow: 7px 10px 11px 0px rgba(0,0,0,0.75);
-
+  -webkit-box-shadow: 7px 10px 11px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 7px 10px 11px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 7px 10px 11px 0px rgba(0, 0, 0, 0.75);
 }
 
 .my-photo {
-  max-width:20%;
+  max-width: 20%;
+}
+
+.front-name {
+  font-family: "Special Elite", cursive;
+}
+
+.front-title {
+  font-family: "Oswald", sans-serif;
 }
 
 .App-header {
