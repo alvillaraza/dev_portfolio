@@ -3,4 +3,4 @@ Web Dev Portfolio
 
 in portfolio folder:
 npm i
-npm react-router-dom
+npm i react-router-dom

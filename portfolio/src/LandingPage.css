@@ -1,0 +1,36 @@
+.landing-page-container {
+  display: flex;
+  background-color: #f3d8a0;
+  height: 100vh;
+  font-family: 'Special Elite', cursive;
+}
+.vertical-menu {
+  display: flex;
+  flex-direction: column;
+}
+.vertical-menu a {
+  background-color: #e7c98c;
+  text-decoration: none;
+  color: black;
+  padding-top: 51px;
+  padding-bottom: 51px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.vertical-menu a p {
+  transform: rotate(90deg);
+}
+.front-title {
+  color: #b40302;
+}
+.name-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 30%;
+}
+.name-info-container .name-info {
+  background-color: black;
+  color: #dbdbdb;
+  padding: 10px;
+}
