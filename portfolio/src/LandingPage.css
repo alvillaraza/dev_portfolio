@@ -1,12 +1,19 @@
+.app-container {
+  display: flex;
+}
 .landing-page-container {
   display: flex;
   height: 100vh;
   font-family: 'Special Elite', cursive;
+  background-color: #f3d8a0;
+  background-image: url('components/images/portfolio-resume-folder-score-lines.png'), url('components/images/portfolio-resume-folder-score-lines.png'), url('components/images/portfolio-resume-coffee-stain.jpg'), url('components/images/portfolio-resume-transparent-bg.png');
+  background-size: contain;
+  background-position: center, center, bottom;
+  background-repeat: no-repeat;
 }
 .vertical-menu {
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
 }
 .vertical-menu a {
   background-color: #e7c98c;
@@ -28,12 +35,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-left: 30%;
-  background-color: #f3d8a0;
 }
 .name-info-container .name-info {
   background-color: black;
   color: #dbdbdb;
   padding: 10px;
-  margin: 0px 20px 10px 20px;
+  margin: 0px 20px 10px 150px;
 }

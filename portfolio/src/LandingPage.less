@@ -1,22 +1,24 @@
+.app-container {
+    display: flex;
+}
 .landing-page-container {
     display: flex;
     height: 100vh;
     font-family: 'Special Elite', cursive;
+    background-color: #f3d8a0;
 
-    // .portfolio-fold {
-    //     transform: rotate(90deg);
-    // }
+    background-image: url('./components/images/portfolio-resume-folder-score-lines.png'),
+        url('./components/images/portfolio-resume-folder-score-lines.png'), url('./components/images/portfolio-resume-coffee-stain.jpg'), url('./components/images/portfolio-resume-transparent-bg.png');
+    background-size: contain;
+    background-position: center, center, bottom;
+    background-repeat: no-repeat;
 }
 .vertical-menu {
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    // margin-top: 20px;
 
     a {
-        p {
-            transform: rotate(90deg);
-        }
-
         background-color: #e7c98c;
         text-decoration: none;
         color: black;
@@ -25,6 +27,9 @@
         margin-bottom: 3px;
         border-top-right-radius: 8px;
         border-bottom-right-radius: 8px;
+        p {
+            transform: rotate(90deg);
+        }
     }
 }
 
@@ -36,13 +41,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 30%;
-    background-color: #f3d8a0;
 
     .name-info {
         background-color: black;
         color: #dbdbdb;
         padding: 10px;
-        margin: 0px 20px 10px 20px;
+        margin: 0px 20px 10px 150px;
     }
 }

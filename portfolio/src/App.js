@@ -12,12 +12,10 @@ import './LandingPage.css';
 
 function App() {
     return (
-        <div className='landing-page-container'>
-            <LandingPage />
-
-            <Header />
-       
-
+        <div className='app-container'>
+            <Route exact path='/'>
+                <LandingPage />
+            </Route>
 
             <Route exact path='/about-me'>
                 <AboutMe />
@@ -30,6 +28,7 @@ function App() {
             <Route exact path='/contact-me'>
                 <ContactMe />
             </Route>
+            <Header />
         </div>
     );
 }
