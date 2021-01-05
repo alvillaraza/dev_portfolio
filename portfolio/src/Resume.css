@@ -3,7 +3,9 @@ h3 {
   font-family: 'Special Elite', cursive;
 }
 .resume-container {
-  margin: 10%;
+  margin: 1% 0% 5% 5%;
+  padding: 5%;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
 }
 .resume-container .resume-contact-info {
   text-align: center;
@@ -18,9 +20,29 @@ h3 {
   color: white;
   background-color: black;
   margin: 5px;
-  padding: 10px;
+  padding: 8px;
+  font-size: 20px;
 }
-.resume-container .resume-job-title {
+.resume-container .resume-summary {
+  border-bottom: 1px solid grey;
+  padding-bottom: 8%;
+}
+.resume-container .resume-experience {
+  padding-top: 5%;
+}
+.resume-container .resume-job-facts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.resume-container .resume-job-facts .resume-job-title {
   background-color: black;
   color: white;
+  padding: 3px 25px 3px 25px;
+}
+.resume-container .resume-job-facts h3 {
+  margin-left: -50px;
+}
+.resume-container .resume-job-facts h4 {
+  font-size: 14px;
 }

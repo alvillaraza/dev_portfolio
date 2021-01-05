@@ -1,13 +1,18 @@
-h1, h3 {
+h1,
+h3 {
     font-family: 'Special Elite', cursive;
 }
 
 .resume-container {
-    margin: 10%;
+    margin: 1% 0% 5% 5%;
+    // border: 1px solid grey;
+    padding: 5%;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
+
     .resume-contact-info {
         text-align: center;
     }
-    .resume-skills{
+    .resume-skills {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -16,12 +21,31 @@ h1, h3 {
             color: white;
             background-color: black;
             margin: 5px;
-            padding: 10px;
+            padding: 8px;
+            font-size: 20px;
         }
     }
-    .resume-job-title {
-        background-color: black;
-        color: white;
-    
+    .resume-summary {
+        border-bottom: 1px solid grey;
+        padding-bottom: 8%;
+    }
+    .resume-experience {
+        padding-top: 5%;
+    }
+    .resume-job-facts {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .resume-job-title {
+            background-color: black;
+            color: white;
+            padding: 3px 25px 3px 25px;
+        }
+        h3 {
+            margin-left: -50px;
+        }
+        h4 {
+            font-size: 14px;
+        }
     }
 }
