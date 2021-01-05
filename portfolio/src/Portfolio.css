@@ -1,0 +1,14 @@
+.portfolio-container {
+  margin: 1% 0% 5% 5%;
+  width: 100%;
+  max-width: 720px;
+  padding: 5%;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.portfolio-container .portfolio-piece {
+  border-bottom: 1px solid grey;
+  padding: 40px;
+}
+.portfolio-container img {
+  max-width: -webkit-fill-available;
+}

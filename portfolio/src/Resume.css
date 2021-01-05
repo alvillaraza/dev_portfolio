@@ -32,6 +32,9 @@ h3 {
 .resume-container .resume-experience {
   padding-top: 5%;
 }
+.resume-container .resume-experience a {
+  text-decoration: none;
+}
 .resume-container .resume-experience .resume-each-job {
   padding-bottom: 30px;
 }
@@ -47,12 +50,13 @@ h3 {
   padding: 3px 25px 3px 25px;
 }
 .resume-container .resume-job-facts .resume-job-titleandco {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 .resume-container .resume-job-facts h3 {
   margin-left: 10px;
 }
-.resume-container .resume-job-facts h4 {
-  font-size: 14px;
+.resume-container .resume-job-facts p {
+  font-size: 13px;
+  margin-top: 11px;
 }

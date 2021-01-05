@@ -14,24 +14,26 @@ import './LandingPage.css';
 function App() {
     return (
         <div className='app-container'>
-            <Route exact path='/'>
-                <LandingPage />
-            </Route>
+           
+                <Route exact path='/'>
+                    <LandingPage />
+                </Route>
 
-            <Route exact path='/about-me'>
-                <AboutMe />
-            </Route>
+                <Route exact path='/about-me'>
+                    <AboutMe />
+                </Route>
 
-            <Route exact path='/resume'>
-                <Resume />
-            </Route>
-            <Route exact path='/portfolio'>
-                <Portfolio />
-            </Route>
+                <Route exact path='/resume'>
+                    <Resume />
+                </Route>
+                <Route exact path='/portfolio'>
+                    <Portfolio />
+                </Route>
 
-            <Route exact path='/contact-me'>
-                <ContactMe />
-            </Route>
+                <Route exact path='/contact-me'>
+                    <ContactMe />
+                </Route>
+            
             <Header />
         </div>
     );

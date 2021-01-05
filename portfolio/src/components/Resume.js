@@ -28,11 +28,13 @@ function Resume() {
             <div className='resume-experience'>
                 <div className='resume-each-job'>
                     <div className='resume-job-facts'>
-                        <div className='resume-job-titleandco'><div className='resume-job-title'>
-                            Frontend Web Developer
-                        </div>{' '}
-                        <h3>Strongmind (Contractual)</h3></div>
-                        <h4>October 2020 - present</h4>
+                        <div className='resume-job-titleandco'>
+                            <div className='resume-job-title'>
+                                Frontend Web Developer (contract)
+                            </div>{' '}
+                            <h3>Strongmind</h3>
+                        </div>
+                        <p>October 2020 - present</p>
                     </div>
                     <ul>
                         <li>
@@ -47,9 +49,11 @@ function Resume() {
                 </div>
                 <div className='resume-each-job'>
                     <div className='resume-job-facts'>
-                    <div className='resume-job-titleandco'><div className='resume-job-title'>Team Lead</div>{' '}
-                        <h3>Lambda School</h3></div>
-                        <h4>July 2020 – October 2020</h4>
+                        <div className='resume-job-titleandco'>
+                            <div className='resume-job-title'>Team Lead</div>{' '}
+                            <h3>Lambda School</h3>
+                        </div>
+                        <p>July 2020 – October 2020</p>
                     </div>
                     <ul>
                         <li>
@@ -75,11 +79,13 @@ function Resume() {
                 </div>
                 <div className='resume-each-job'>
                     <div className='resume-job-facts'>
-                    <div className='resume-job-titleandco'><div className='resume-job-title'>
-                            Full Stack Web Development Student
-                        </div>{' '}
-                        <h3>Lambda School</h3></div>
-                        <h4>December 2019 – June 2020</h4>
+                        <div className='resume-job-titleandco'>
+                            <div className='resume-job-title'>
+                                Full Stack Web Development Student
+                            </div>{' '}
+                            <h3>Lambda School</h3>
+                        </div>
+                        <p>December 2019 – June 2020</p>
                     </div>
                     <ul>
                         <li>
@@ -92,17 +98,22 @@ function Resume() {
                             successfully develop websites.
                         </li>{' '}
                         <li>
-                            Built a fitness app in 3 release canvases in a team
-                            of 4, using GIT, Postgres, Node.js, and React.js.
+                            Built a <a href="https://master.d192i0nnd51m2r.amplifyapp.com/">fitness app</a> in 3 release canvases in a team
+                            of 4, using GIT, Postgres, Node.js, and React.js. 
+                            
                         </li>{' '}
                     </ul>
-                    https://master.d192i0nnd51m2r.amplifyapp.com/
+                   
                 </div>
                 <div className='resume-each-job'>
                     <div className='resume-job-facts'>
-                    <div className='resume-job-titleandco'><div className='resume-job-title'>Company Owner</div>{' '}
-                        <h3>BOSS Entertainment Live</h3></div>
-                        <h4>June 2015 – Jan 2020</h4>
+                        <div className='resume-job-titleandco'>
+                            <div className='resume-job-title'>
+                                Company Owner
+                            </div>{' '}
+                            <h3>BOSS Entertainment Live</h3>
+                        </div>
+                        <p>June 2015 – Jan 2020</p>
                     </div>
                     <ul>
                         <li>
