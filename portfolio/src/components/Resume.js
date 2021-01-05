@@ -1,11 +1,13 @@
 import React from 'react';
 
+import '../Resume.css';
+
 function Resume() {
     return (
-        <div>
+        <div className='resume-container'>
+            <div className='resume-contact-info'>
             <h1>Alexis Villaraza</h1>
-            <div>
-                (480) 703-7967 alexis.borja@gmail.com
+                <h3>(480) 703-7967 | alexis.borja@gmail.com</h3>
                 <address>3312 S Parkside Dr Tempe, AZ 85282</address>
             </div>
 
@@ -25,7 +27,7 @@ function Resume() {
             </div>
             <div>
                 <div>
-                    <h3>Frontend Web Developer | Strongmind (Contractual)</h3>
+                    <div className='resume-job-title'>Frontend Web Developer</div> <h3>Strongmind (Contractual)</h3>
                     <h4>October 2020 - present</h4>
                     <ul>
                         <li>
@@ -39,7 +41,7 @@ function Resume() {
                     </ul>
                 </div>
                 <div>
-                    <h3>Team Lead | Lambda School</h3>
+                <div className='job-title'>Team Lead</div> <h3>Lambda School</h3>
                     <h4>July 2020 – October 2020</h4>
                     <ul>
                         <li>
@@ -64,7 +66,7 @@ function Resume() {
                     </ul>
                 </div>
                 <div>
-                    <h3>Full Stack Web Development Student | Lambda School</h3>
+                <div className='job-title'>Full Stack Web Development Student</div> <h3>Lambda School</h3>
                     <h4>December 2019 – June 2020</h4>
                     <ul>
                         <li>
@@ -84,7 +86,7 @@ function Resume() {
                     https://master.d192i0nnd51m2r.amplifyapp.com/
                 </div>
                 <div>
-                    <h3>Company Owner | BOSS Entertainment Live</h3>
+                <div className='job-title'>Company Owner</div> <h3>BOSS Entertainment Live</h3>
                     <h4>June 2015 – Jan 2020</h4>
                     <ul>
                         <li>

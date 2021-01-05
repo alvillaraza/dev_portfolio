@@ -1,0 +1,26 @@
+h1,
+h3 {
+  font-family: 'Special Elite', cursive;
+}
+.resume-container {
+  margin: 10%;
+}
+.resume-container .resume-contact-info {
+  text-align: center;
+}
+.resume-container .resume-skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 10%;
+}
+.resume-container .resume-skills h2 {
+  color: white;
+  background-color: black;
+  margin: 5px;
+  padding: 10px;
+}
+.resume-container .resume-job-title {
+  background-color: black;
+  color: white;
+}
