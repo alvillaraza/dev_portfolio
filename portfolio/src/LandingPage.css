@@ -2,10 +2,12 @@
   display: flex;
 }
 .landing-page-container {
-  display: flex;
+  margin: 1% 0% 5% 5%;
   height: 100vh;
-  width: 70%;
+  width: 100%;
   max-width: 720px;
+  padding: 5%;
+  display: flex;
   font-family: 'Special Elite', cursive;
   background-color: #fee1a7;
   justify-content: flex-end;
