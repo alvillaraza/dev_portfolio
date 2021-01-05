@@ -5,6 +5,8 @@ h3 {
 
 .resume-container {
     margin: 1% 0% 5% 5%;
+    width: 100%;
+    max-width: 720px;
     // border: 1px solid grey;
     padding: 5%;
     box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
@@ -31,18 +33,27 @@ h3 {
     }
     .resume-experience {
         padding-top: 5%;
+        .resume-each-job {
+            padding-bottom: 30px;
+        }
     }
+
     .resume-job-facts {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin-bottom: -20px;
         .resume-job-title {
             background-color: black;
             color: white;
             padding: 3px 25px 3px 25px;
         }
-        h3 {
-            margin-left: -50px;
+        .resume-job-titleandco {
+            display: flex;
+            align-items: center;
+        }
+       h3 {
+            margin-left: 10px;
         }
         h4 {
             font-size: 14px;

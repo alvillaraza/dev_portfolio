@@ -6,7 +6,7 @@ function Resume() {
     return (
         <div className='resume-container'>
             <div className='resume-contact-info'>
-            <h1>Alexis Villaraza</h1>
+                <h1>Alexis Villaraza</h1>
                 <h3>(480) 703-7967 | alexis.borja@gmail.com</h3>
                 <address>3312 S Parkside Dr Tempe, AZ 85282</address>
             </div>
@@ -26,9 +26,14 @@ function Resume() {
                 become a successful Full Stack Web Developer.
             </div>
             <div className='resume-experience'>
-                <div>
-                    <div className='resume-job-facts'><div className='resume-job-title'>Frontend Web Developer</div> <h3>Strongmind (Contractual)</h3>
-                    <h4>October 2020 - present</h4></div>
+                <div className='resume-each-job'>
+                    <div className='resume-job-facts'>
+                        <div className='resume-job-titleandco'><div className='resume-job-title'>
+                            Frontend Web Developer
+                        </div>{' '}
+                        <h3>Strongmind (Contractual)</h3></div>
+                        <h4>October 2020 - present</h4>
+                    </div>
                     <ul>
                         <li>
                             Front end web development of interactive interfaces
@@ -40,9 +45,12 @@ function Resume() {
                         </li>
                     </ul>
                 </div>
-                <div>
-                <div className='resume-job-facts'><div className='resume-job-title'>Team Lead</div> <h3>Lambda School</h3>
-                    <h4>July 2020 – October 2020</h4></div>
+                <div className='resume-each-job'>
+                    <div className='resume-job-facts'>
+                    <div className='resume-job-titleandco'><div className='resume-job-title'>Team Lead</div>{' '}
+                        <h3>Lambda School</h3></div>
+                        <h4>July 2020 – October 2020</h4>
+                    </div>
                     <ul>
                         <li>
                             Mentored a team of 6 - 8 students to be
@@ -65,9 +73,14 @@ function Resume() {
                         </li>
                     </ul>
                 </div>
-                <div>
-                <div className='resume-job-facts'><div className='resume-job-title'>Full Stack Web Development Student</div> <h3>Lambda School</h3>
-                    <h4>December 2019 – June 2020</h4></div>
+                <div className='resume-each-job'>
+                    <div className='resume-job-facts'>
+                    <div className='resume-job-titleandco'><div className='resume-job-title'>
+                            Full Stack Web Development Student
+                        </div>{' '}
+                        <h3>Lambda School</h3></div>
+                        <h4>December 2019 – June 2020</h4>
+                    </div>
                     <ul>
                         <li>
                             Learned several programming languages from the
@@ -85,9 +98,12 @@ function Resume() {
                     </ul>
                     https://master.d192i0nnd51m2r.amplifyapp.com/
                 </div>
-                <div>
-                <div className='resume-job-facts'><div className='resume-job-title'>Company Owner</div> <h3>BOSS Entertainment Live</h3>
-                    <h4>June 2015 – Jan 2020</h4></div>
+                <div className='resume-each-job'>
+                    <div className='resume-job-facts'>
+                    <div className='resume-job-titleandco'><div className='resume-job-title'>Company Owner</div>{' '}
+                        <h3>BOSS Entertainment Live</h3></div>
+                        <h4>June 2015 – Jan 2020</h4>
+                    </div>
                     <ul>
                         <li>
                             Hired and managed a team of +/- 20 entertainers,

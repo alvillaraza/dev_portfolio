@@ -16,7 +16,7 @@ function Header() {
             <Link to='/portfolio'>
                 <p>Portfolio</p>
             </Link>
-            <Link to='/contact-me'>
+            <Link to='/'>
                 <p>Contact Me</p>
             </Link>
             {/* </div> */}
