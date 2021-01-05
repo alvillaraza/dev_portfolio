@@ -9,7 +9,7 @@ function Header() {
                 <p>About Me</p>
             </Link>
 
-            <Link to='https://drive.google.com/file/d/1zVOpRxnMLzE78m6InPMh8-vuMVXYk8G5/view?usp=sharing'>
+            <Link to='/resume'>
                 <p> Resume</p>
             </Link>
 

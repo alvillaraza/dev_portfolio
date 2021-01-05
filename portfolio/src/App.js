@@ -3,6 +3,7 @@ import { Route } from 'react-router-dom';
 import LandingPage from './components/LandingPage';
 import Header from './components/Header';
 import AboutMe from './components/AboutMe';
+import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
 import ContactMe from './components/ContactMe';
 
@@ -21,6 +22,9 @@ function App() {
                 <AboutMe />
             </Route>
 
+            <Route exact path='/resume'>
+                <Resume />
+            </Route>
             <Route exact path='/portfolio'>
                 <Portfolio />
             </Route>
