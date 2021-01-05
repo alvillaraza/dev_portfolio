@@ -11,11 +11,11 @@ function LandingPage() {
       <img className="portfolio-fold" src={fold}/> */}
             <div className='name-info-container'>
                 <h1 className='front-title'>
-                    FULL-STACK <p>WEB DEVELOPER</p>
+                    <span>FULL-STACK</span> <p>WEB DEVELOPER</p>
                 </h1>
-                <h1 className='front-name name-info'>ALEXIS VILLARAZA</h1>
-                <h1 className='name-info'>480-703-7967</h1>
-                <h1 className='name-info'>alexis.borja@gmail.com</h1>
+                <h2 className='front-name name-info'>ALEXIS VILLARAZA</h2>
+                <h2 className='name-info'>480-703-7967</h2>
+                <h2 className='name-info email'>alexis.borja@gmail.com</h2>
             </div>
         </div>
     );

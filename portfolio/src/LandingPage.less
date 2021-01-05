@@ -4,50 +4,75 @@
 .landing-page-container {
     display: flex;
     height: 100vh;
+    width: 70%;
+    max-width: 720px;
     font-family: 'Special Elite', cursive;
-    background-color: #f3d8a0;
+    background-color: #fee1a7;
+    justify-content: flex-end;
+
 
     background-image: url('./components/images/portfolio-resume-folder-score-lines.png'),
         url('./components/images/portfolio-resume-folder-score-lines.png'),
-        url('./components/images/portfolio-resume-coffee-stain.jpg'),
-        url('./components/images/portfolio-resume-transparent-bg.png');
-    background-size: contain;
-    background-position: 10% center, 15% center, left bottom, center;
+        url('./components/images/portfolio-resume-coffee-stain.jpg');
+        // url('./components/images/portfolio-resume-transparent-bg.png');
+    // background-size: contain;
+    background-position: 10% center, 15% center, left bottom;
     background-repeat: no-repeat;
 }
 .vertical-menu {
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
+    margin-top: 80px;
+    margin-left: -28px;
+
 
     a {
+        font-family: 'Special Elite', cursive;
+        font-size: 20px;
         background-color: #e7c98c;
         text-decoration: none;
+        text-align: center;
         color: black;
-        padding-top: 40px;
-        padding-bottom: 40px;
-        margin-bottom: 3px;
+      
+        padding-right: 40px;
+        padding-left: 30px;
+
+        margin-bottom: 121px;
+        margin-left: -32px;
         border-top-right-radius: 8px;
-        border-bottom-right-radius: 8px;
-        p {
-            transform: rotate(90deg);
-        }
+        border-top-left-radius: 8px;
+        transform: rotate(90deg);
+      
     }
 }
 
-.front-title {
-    color: #b40302;
-}
 
 .name-info-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0px 20px 10px 150px;
-
+    margin: 30px;
+    
+    .front-title {
+        color: #b40302;
+        text-align: center;
+        span {
+            font-size: 42px;
+        }
+        p {
+            margin: -7px 0px 0px;
+        }
+    }
     .name-info {
         background-color: black;
         color: #dbdbdb;
         padding: 10px;
+        margin: .5px; 
+    }
+    .front-name {
+        transform: rotate(-1deg)
+    }
+    .email {
+        transform: rotate(2deg);
     }
 }

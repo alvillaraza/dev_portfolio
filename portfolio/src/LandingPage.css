@@ -4,42 +4,61 @@
 .landing-page-container {
   display: flex;
   height: 100vh;
+  width: 70%;
+  max-width: 720px;
   font-family: 'Special Elite', cursive;
-  background-color: #f3d8a0;
-  background-image: url('components/images/portfolio-resume-folder-score-lines.png'), url('components/images/portfolio-resume-folder-score-lines.png'), url('components/images/portfolio-resume-coffee-stain.jpg'), url('components/images/portfolio-resume-transparent-bg.png');
-  background-size: contain;
-  background-position: 10% center, 15% center, left bottom, center;
+  background-color: #fee1a7;
+  justify-content: flex-end;
+  background-image: url('components/images/portfolio-resume-folder-score-lines.png'), url('components/images/portfolio-resume-folder-score-lines.png'), url('components/images/portfolio-resume-coffee-stain.jpg');
+  background-position: 10% center, 15% center, left bottom;
   background-repeat: no-repeat;
 }
 .vertical-menu {
   display: flex;
   flex-direction: column;
-  margin-top: 30px;
+  margin-top: 80px;
+  margin-left: -28px;
 }
 .vertical-menu a {
+  font-family: 'Special Elite', cursive;
+  font-size: 20px;
   background-color: #e7c98c;
   text-decoration: none;
+  text-align: center;
   color: black;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  margin-bottom: 3px;
+  padding-right: 40px;
+  padding-left: 30px;
+  margin-bottom: 121px;
+  margin-left: -32px;
   border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px;
-}
-.vertical-menu a p {
+  border-top-left-radius: 8px;
   transform: rotate(90deg);
-}
-.front-title {
-  color: #b40302;
 }
 .name-info-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0px 20px 10px 150px;
+  margin: 30px;
+}
+.name-info-container .front-title {
+  color: #b40302;
+  text-align: center;
+}
+.name-info-container .front-title span {
+  font-size: 42px;
+}
+.name-info-container .front-title p {
+  margin: -7px 0px 0px;
 }
 .name-info-container .name-info {
   background-color: black;
   color: #dbdbdb;
   padding: 10px;
+  margin: 0.5px;
+}
+.name-info-container .front-name {
+  transform: rotate(-1deg);
+}
+.name-info-container .email {
+  transform: rotate(2deg);
 }
