@@ -24,22 +24,22 @@ function AboutMe() {
                 </a>
                 <p>Tech Stack: React, Redux, Node</p>
                 <p>
-            github: <a href="https://github.com/Lambda-School-Labs/refresh-fe" target="_blank"></a>https://github.com/Lambda-School-Labs/refresh-fe
+            github: <a href="https://github.com/Lambda-School-Labs/refresh-fe" target="_blank">https://github.com/Lambda-School-Labs/refresh-fe</a>
                 </p>
                 <p>
-                    github-backend:<a href="https://github.com/Lambda-School-Labs/refresh-be" target="_blank">
+                    github-backend: <a href="https://github.com/Lambda-School-Labs/refresh-be" target="_blank">
                     https://github.com/Lambda-School-Labs/refresh-be</a>
                 </p>
             </div>
             <div className='portfolio-piece'>
-                <a href='https://build-week-airbnb-optimal-price-4.github.io/user-interface/' target="_blank">
+                <a href='https://user-interface-eight.vercel.app/' target="_blank">
                     <img src={ui} />
                     <p>Landing Page and About Page</p>
                 </a>
                 <p>Tech Stack: HTML, LESS </p>
                 <p>
-                    github:<a href="https://github.com/Build-Week-Airbnb-Optimal-Price-4/user-interface" target="_blank">
-                    https://github.com/Build-Week-Airbnb-Optimal-Price-4/user-interface</a>
+                    github: <a href="https://user-interface-eight.vercel.app/" target="_blank">
+                    https://user-interface-eight.vercel.app/</a>
                 </p>
             </div>
         </div>
