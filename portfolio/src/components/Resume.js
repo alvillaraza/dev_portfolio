@@ -8,7 +8,7 @@ function Resume() {
             <div className='resume-contact-info'>
                 <h1>Alexis Villaraza</h1>
                 <h3>(480) 703-7967 | alexis.borja@gmail.com</h3>
-                <address>3312 S Parkside Dr Tempe, AZ 85282</address>
+                <address>Tempe, AZ 85282</address>
             </div>
 
             <div className='resume-skills'>

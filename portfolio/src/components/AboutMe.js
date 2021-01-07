@@ -22,8 +22,8 @@ function AboutMe() {
             <p>Front end: HTML | CSS | Javascript | React | Redux</p>
             <p>Back end: Node | SQL | Python</p>
             <p>
-                <a href='https://www.linkedin.com/in/alvillaraza/'>LinkedIn</a>{' '}
-                | <a href='https://github.com/alvillaraza'>Github</a>
+                <a href='https://www.linkedin.com/in/alvillaraza/' target="_blank">LinkedIn</a>{' '}
+                | <a href='https://github.com/alvillaraza' target="_blank">Github</a>
             </p>
             <p>
                 I studied Full Stack Web Development through Lambda School where
