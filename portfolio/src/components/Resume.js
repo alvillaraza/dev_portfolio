@@ -7,7 +7,7 @@ function Resume() {
         <div className='resume-container'>
             <div className='resume-contact-info'>
                 <h1>Alexis Villaraza</h1>
-                <h3>(480) 703-7967 | alexis.borja@gmail.com</h3>
+                <h3>(480) 703-7967 | <a href='mailto:alexis.borja@gmail.com'>alexis.borja@gmail.com</a></h3>
                 <address>Tempe, AZ 85282</address>
             </div>
 

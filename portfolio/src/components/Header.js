@@ -15,7 +15,7 @@ function Header() {
                 <p>About Me</p>
             </Link>
             <Link to='/'>
-                <p>Contact Me</p>
+                <p>Contact</p>
             </Link>
         </nav>
     );

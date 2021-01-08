@@ -19,8 +19,8 @@
 .vertical-menu {
   display: flex;
   flex-direction: column;
-  margin-top: 80px;
-  margin-left: -27.5px;
+  margin-top: 92px;
+  margin-left: -21.5px;
 }
 .vertical-menu a {
   font-family: 'Special Elite', cursive;
@@ -64,4 +64,8 @@
 }
 .name-info-container .email {
   transform: rotate(2deg);
+}
+.name-info-container .email a {
+  text-decoration: none;
+  color: #dbdbdb;
 }

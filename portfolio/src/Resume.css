@@ -9,6 +9,9 @@ h3 {
   padding: 5%;
   box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
 }
+.resume-container a {
+  text-decoration: none;
+}
 .resume-container .resume-contact-info {
   text-align: center;
 }
@@ -31,9 +34,6 @@ h3 {
 }
 .resume-container .resume-experience {
   padding-top: 5%;
-}
-.resume-container .resume-experience a {
-  text-decoration: none;
 }
 .resume-container .resume-experience .resume-each-job {
   padding-bottom: 30px;

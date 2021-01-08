@@ -15,7 +15,7 @@ function LandingPage() {
                 </h1>
                 <h2 className='front-name name-info'>ALEXIS VILLARAZA</h2>
                 <h2 className='name-info'>480-703-7967</h2>
-                <h2 className='name-info email'>alexis.borja@gmail.com</h2>
+                <h2 className='name-info email'><a href='mailto:alexis.borja@gmail.com'>alexis.borja@gmail.com</a></h2>
             </div>
         </div>
     );

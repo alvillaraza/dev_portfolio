@@ -27,7 +27,7 @@ function AboutMe() {
                         https://github.com/alvillaraza/animal-crossing
                     </a>
                 </p>
-                I worked on this app to brush up on my CSS skills as it was my
+                I worked on this app to brush up on my CSS/LESS skills as it was my
                 weakest suit at the time. Placing the pagination buttons around
                 large images was a challenge. I learned the proper use of
                 negative margins and position absolute.
@@ -62,7 +62,7 @@ function AboutMe() {
                 getting the data to update on the admin side as it updates on
                 the user side. We received this project from a previous team who
                 was using a different pattern. As a team, we decided to switch
-                the pattern to redux to handle states globally.
+                the pattern to redux to handle states globally, fixing the issue.
             </div>
             <div className='portfolio-piece'>
                 <a
@@ -82,6 +82,7 @@ function AboutMe() {
                         https://user-interface-eight.vercel.app/
                     </a>
                 </p>
+                This was my first project done in one week with a group of developers. I was in charge of the Landing Page and the About Page. This was a quick and easy introduction to HTML and CSS/LESS.
             </div>
         </div>
     );
