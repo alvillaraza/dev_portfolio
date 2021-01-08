@@ -8,22 +8,19 @@ function AboutMe() {
             <h1>About Me</h1>
             <img src={prof} alt='alexis-photo' className='my-photo' />
 
-            {/* <p>Impact statement (something interesting so people wanna read it) </p>
-      <p>Story of how you got into coding?</p>
-      <p>
-        What you do now, anything crazy cool for jobs, what's your experience
-        like right now
-      </p>
-      <p>Future goals and aspirations </p>
-      <p>
-        People need to understand: who you are, what you do? and why what you do
-        matter?
-      </p> */}
-            <p>Front end: HTML | CSS | Javascript | React | Redux</p>
+              <p>Front end: HTML | CSS | Javascript | React | Redux</p>
             <p>Back end: Node | SQL | Python</p>
             <p>
-                <a href='https://www.linkedin.com/in/alvillaraza/' target="_blank">LinkedIn</a>{' '}
-                | <a href='https://github.com/alvillaraza' target="_blank">Github</a>
+                <a
+                    href='https://www.linkedin.com/in/alvillaraza/'
+                    target='_blank'
+                >
+                    LinkedIn
+                </a>{' '}
+                |{' '}
+                <a href='https://github.com/alvillaraza' target='_blank'>
+                    Github
+                </a>
             </p>
             <p>
                 I studied Full Stack Web Development through Lambda School where
@@ -38,13 +35,15 @@ function AboutMe() {
             </p>
             <p>
                 I began contractual work at Strongmind, helping build
-                interactive educational platforms. I enjoyed working for education as I got to learn scientific facts while I work!
+                interactive educational platforms. I enjoyed working for
+                education as I got to learn scientific facts while I work!
             </p>
             <p>
-                I am currently looking for more experience in Web Development.
-                With a passion in eco-solutions, I hope to, one day, use my
-                development skills to provide a positive impact to mother
-                nature.
+                I am currently looking for more experience in Web Development. I
+                have been schooling and working remotely, so I am all set and
+                ready to work remotely or in office.With a passion in
+                eco-solutions, I hope to, one day, use my development skills to
+                provide a positive impact to mother nature.
             </p>
             <p>Interests: Outdoors | Aerial Arts | Travel | Cats</p>
         </div>

@@ -7,7 +7,12 @@ function Resume() {
         <div className='resume-container'>
             <div className='resume-contact-info'>
                 <h1>Alexis Villaraza</h1>
-                <h3>(480) 703-7967 | <a href='mailto:alexis.borja@gmail.com'>alexis.borja@gmail.com</a></h3>
+                <h3>
+                    (480) 703-7967 |{' '}
+                    <a href='mailto:alexis.borja@gmail.com'>
+                        alexis.borja@gmail.com
+                    </a>
+                </h3>
                 <address>Tempe, AZ 85282</address>
             </div>
 
@@ -98,12 +103,14 @@ function Resume() {
                             successfully develop websites.
                         </li>{' '}
                         <li>
-                            Built a <a href="https://master.d192i0nnd51m2r.amplifyapp.com/">fitness app</a> in 3 release canvases in a team
-                            of 4, using GIT, Postgres, Node.js, and React.js. 
-                            
+                            Built a{' '}
+                            <a href='https://master.d192i0nnd51m2r.amplifyapp.com/'>
+                                fitness app
+                            </a>{' '}
+                            in 3 release canvases in a team of 4, using GIT,
+                            Postgres, Node.js, and React.js.
                         </li>{' '}
                     </ul>
-                   
                 </div>
                 <div className='resume-each-job'>
                     <div className='resume-job-facts'>

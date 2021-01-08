@@ -1,14 +1,9 @@
 import React from 'react';
 
-import fold from './images/portfolio-resume-folder-score-lines.png';
-// import './App.css';
-// import './LandingPage.css';
-
 function LandingPage() {
     return (
         <div className='landing-page-container'>
-            {/* <img className="portfolio-fold" src={fold}/>
-      <img className="portfolio-fold" src={fold}/> */}
+        
             <div className='name-info-container'>
                 <h1 className='front-title'>
                     <span>FULL-STACK</span> <p>WEB DEVELOPER</p>
