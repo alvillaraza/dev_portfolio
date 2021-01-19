@@ -19,7 +19,7 @@ function App() {
                     <LandingPage />
                 </Route>
 
-                <Route exact path='/about-me'>
+                <Route path='/about-me'>
                     <AboutMe />
                 </Route>
 
