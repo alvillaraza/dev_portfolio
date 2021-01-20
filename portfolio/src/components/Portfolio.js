@@ -12,9 +12,9 @@ function AboutMe() {
             <div className='portfolio-piece'>
                 <a
                     href='https://animal-crossing-git-main.alvillaraza.vercel.app/'
-                    target='_blank'
+                    target='_blank' rel='noopener noreferrer'
                 >
-                    <img src={acnh} />
+                    <img src={acnh} alt="" />
                     <p>Animal Crossing Fun App</p>
                 </a>
                 <p>Tech Stack: LESS, React</p>
@@ -22,7 +22,7 @@ function AboutMe() {
                     Github:{' '}
                     <a
                         href='https://github.com/alvillaraza/animal-crossing'
-                        target='_blank'
+                        target='_blank' rel='noopener noreferrer'
                     >
                         https://github.com/alvillaraza/animal-crossing
                     </a>
@@ -33,8 +33,8 @@ function AboutMe() {
                 negative margins and position absolute.
             </div>
             <div className='portfolio-piece'>
-                <a href='https://www.refresh-app.com/' target='_blank'>
-                    <img src={refresh} />
+                <a href='https://www.refresh-app.com/' target='_blank' rel='noopener noreferrer'>
+                    <img src={refresh} alt="" />
                     <p>Wellness Tracker App</p>
                 </a>
                 <p>Tech Stack: React, Redux, Node</p>
@@ -42,7 +42,7 @@ function AboutMe() {
                     Github:{' '}
                     <a
                         href='https://github.com/Lambda-School-Labs/refresh-fe'
-                        target='_blank'
+                        target='_blank' rel='noopener noreferrer'
                     >
                         https://github.com/Lambda-School-Labs/refresh-fe
                     </a>
@@ -51,7 +51,7 @@ function AboutMe() {
                     Github-backend:{' '}
                     <a
                         href='https://github.com/Lambda-School-Labs/refresh-be'
-                        target='_blank'
+                        target='_blank' rel='noopener noreferrer'
                     >
                         https://github.com/Lambda-School-Labs/refresh-be
                     </a>
@@ -67,9 +67,9 @@ function AboutMe() {
             <div className='portfolio-piece'>
                 <a
                     href='https://user-interface-eight.vercel.app/'
-                    target='_blank'
+                    target='_blank' rel='noopener noreferrer'
                 >
-                    <img src={ui} />
+                    <img src={ui} alt="" />
                     <p>Landing Page and About Page</p>
                 </a>
                 <p>Tech Stack: HTML, LESS </p>
@@ -77,7 +77,7 @@ function AboutMe() {
                     github:{' '}
                     <a
                         href='https://user-interface-eight.vercel.app/'
-                        target='_blank'
+                        target='_blank' rel='noopener noreferrer'
                     >
                         https://user-interface-eight.vercel.app/
                     </a>

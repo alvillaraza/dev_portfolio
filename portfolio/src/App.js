@@ -7,7 +7,7 @@ import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
 import ContactMe from './components/ContactMe';
 
-import fold from './components/images/portfolio-resume-folder-score-lines.png';
+// import fold from './components/images/portfolio-resume-folder-score-lines.png';
 import './App.css';
 import './LandingPage.css';
 
