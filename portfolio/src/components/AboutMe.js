@@ -6,7 +6,7 @@ function AboutMe() {
     return (
         <div className='about-container'>
             <h1>About Me</h1>
-            <img src={prof} alt='alexis-photo' className='my-photo' />
+            <img src={prof} alt='Yours truly!' className='my-photo' />
 
               <p>Front end: HTML | CSS | Javascript | React | Redux</p>
             <p>Back end: Node | SQL | Python</p>
