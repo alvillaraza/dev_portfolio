@@ -13,12 +13,12 @@ function AboutMe() {
             <p>
                 <a
                     href='https://www.linkedin.com/in/alvillaraza/'
-                    target='_blank'
+                    target='_blank' rel='noopener noreferrer'
                 >
                     LinkedIn
                 </a>{' '}
                 |{' '}
-                <a href='https://github.com/alvillaraza' target='_blank'>
+                <a href='https://github.com/alvillaraza' target='_blank' rel='noopener noreferrer'>
                     Github
                 </a>
             </p>
