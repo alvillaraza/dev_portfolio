@@ -116,7 +116,7 @@ function Resume() {
                     <div className='resume-job-facts'>
                         <div className='resume-job-titleandco'>
                             <div className='resume-job-title'>
-                                Company Owner
+                                Company Owner / Project Manager
                             </div>{' '}
                             <h3>BOSS Entertainment Live</h3>
                         </div>
