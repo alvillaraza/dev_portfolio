@@ -12,6 +12,11 @@ h3 {
 .resume-container a {
   text-decoration: none;
 }
+.resume-container .resume-links {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
 .resume-container .resume-contact-info {
   text-align: center;
 }

@@ -5,6 +5,14 @@ import '../Resume.css';
 function Resume() {
     return (
         <div className='resume-container'>
+            <div className='resume-links'>
+                <a href='https://www.linkedin.com/in/alvillaraza/' target="_blank">
+                    https://www.linkedin.com/in/alvillaraza/
+                </a>
+                <a href='https://github.com/alvillaraza' target="_blank">
+                    https://github.com/alvillaraza
+                </a>
+            </div>
             <div className='resume-contact-info'>
                 <h1>Alexis Villaraza</h1>
                 <h3>
@@ -104,7 +112,7 @@ function Resume() {
                         </li>{' '}
                         <li>
                             Built a{' '}
-                            <a href='https://master.d192i0nnd51m2r.amplifyapp.com/'>
+                            <a href='https://master.d192i0nnd51m2r.amplifyapp.com/' target="_blank">
                                 fitness app
                             </a>{' '}
                             in 3 release canvases in a team of 4, using GIT,
