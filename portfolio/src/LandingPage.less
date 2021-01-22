@@ -1,6 +1,11 @@
 .app-container {
     display: flex;
     justify-content: center;
+
+    @media screen and (max-width: 720px) {
+        flex-direction: column-reverse;
+        
+    }
 }
 .landing-page-container {
     margin: 1% 0% 5% 5%;
@@ -20,6 +25,12 @@
 
     background-position: 10% center, 15% center, left bottom;
     background-repeat: repeat-y, repeat-y, no-repeat;
+
+    @media screen and (max-width: 720px) {
+        margin: unset;
+        max-width: unset;
+        
+    }
 }
 .vertical-menu {
     display: flex;
@@ -55,6 +66,22 @@
                 transform: scale(1.1)
             }
         }
+
+        @media screen and (max-width: 720px) {
+          margin-bottom: unset;
+          margin-left: unset;
+          transform: unset;
+            padding: 0 10px;
+            font-size: 1rem;
+
+        }
+    }
+
+    @media screen and (max-width: 720px) {
+        flex-direction: unset;
+        margin-top:  unset;
+        margin-left: unset;  
+        justify-content: center;      
     }
 }
 

@@ -12,10 +12,19 @@ h3 {
 .resume-container a {
   text-decoration: none;
 }
+.resume-container a:hover {
+  box-shadow: 2px 3px 6px 1px rgba(0, 0, 0, 0.2);
+}
 .resume-container .resume-links {
   display: flex;
   justify-content: space-between;
   padding-bottom: 20px;
+}
+@media screen and (max-width: 720px) {
+  .resume-container .resume-links {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .resume-container .resume-contact-info {
   text-align: center;
@@ -58,10 +67,20 @@ h3 {
   align-items: center;
   display: flex;
 }
+@media screen and (max-width: 720px) {
+  .resume-container .resume-job-facts .resume-job-titleandco {
+    flex-direction: column;
+  }
+}
 .resume-container .resume-job-facts h3 {
   margin-left: 10px;
 }
 .resume-container .resume-job-facts p {
   font-size: 13px;
   margin-top: 11px;
+}
+@media screen and (max-width: 720px) {
+  .resume-container .resume-job-facts {
+    flex-direction: column;
+  }
 }

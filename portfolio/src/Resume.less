@@ -19,6 +19,10 @@ h3 {
         display: flex;
         justify-content: space-between;
         padding-bottom: 20px;
+        @media screen and (max-width: 720px) {
+            flex-direction: column;
+           align-items: center;
+        }
     }
 
     .resume-contact-info {
@@ -62,6 +66,9 @@ h3 {
         .resume-job-titleandco {
             align-items: center;
             display: flex;
+            @media screen and (max-width: 720px) {
+                flex-direction: column;
+            }
         }
         h3 {
             margin-left: 10px;
@@ -69,6 +76,9 @@ h3 {
         p {
             font-size: 13px;
             margin-top: 11px;
+        }
+        @media screen and (max-width: 720px) {
+            flex-direction: column;
         }
     }
 }
