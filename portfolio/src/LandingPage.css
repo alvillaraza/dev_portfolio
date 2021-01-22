@@ -20,7 +20,7 @@
   display: flex;
   flex-direction: column;
   margin-top: 92px;
-  margin-left: -21.5px;
+  margin-left: -18px;
 }
 .vertical-menu a {
   font-family: 'Special Elite', cursive;
@@ -36,6 +36,13 @@
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
   transform: rotate(90deg);
+}
+.vertical-menu a p {
+  transition-property: transform;
+  transition-duration: 0.1s;
+}
+.vertical-menu a:hover p {
+  transform: scale(1.1);
 }
 .name-info-container {
   display: flex;
@@ -64,12 +71,15 @@
 }
 .name-info-container .email {
   transform: rotate(2deg);
-}
-.name-info-container .email a {
-  text-decoration: none;
-  color: #dbdbdb;
+  transition-property: transform;
+  transition-duration: 0.24s;
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 .name-info-container .email:hover {
   transform: rotate(-4deg);
   box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.name-info-container .email a {
+  text-decoration: none;
+  color: #dbdbdb;
 }
